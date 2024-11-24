@@ -25,6 +25,8 @@
 
         <!-- Bootstrap JS -->
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 
     </head>
@@ -54,40 +56,40 @@
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-8 align-self-end">
                         <h1 class="text-white font-weight-bold">Transformando histórias de amor em cerimônias inesquecíveis</h1>
-                        <!-- <hr class="divider" /> -->
+              
                     </div>
                     <div class="col-lg-8 align-self-baseline">
                         <p class="text-white-75 mb-5">Celebre seu momento único com emoção e elegância.</p>
-                        <!-- <a class="btn btn-primary btn-xl" href="#about">Saiba mais</a> -->
+   
                     </div>
                 </div>
             </div>
         </header>
+
         <!-- About-->
-        <section class="page-section bg-primary" id="about">
+         <section class="page-section bg-primary" id="about">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 align-items-center">
                     <!-- Div para imagem -->
-                    <div class="col-12 col-lg-4 mb-4 mb-lg-0 text-center text-lg-start">
+                    <div class="col-12 col-lg-4 mb-4 mb-lg-0 text-center text-lg-start" data-aos="fade-right">
                         <img src="assets/img/jr-about.jpeg" alt="José Carlos Jr." class="img-fluid rounded" />
                     </div>
                     <!-- Div para conteúdo -->
-                    <div class="col-12 col-lg-8 text-center text-lg-start">
-                        <h2 class="text-white mt-0">José Carlos Jr.</h2>
-                        <p class="text-white-75 mb-4">
+                    <div class="col-12 col-lg-8 text-center text-lg-start" data-aos="fade-left">
+                        <h2 class="text-white mt-0" data-aos="fade-down">José Carlos Jr.</h2>
+                        <p class="text-white-75 mb-4" data-aos="fade-up" data-aos-delay="100">
                             José Carlos Jr. é um celebrante de casamentos reconhecido por seu carisma, criatividade e habilidade em tornar cada cerimônia única. Ele personaliza as celebrações para refletir a essência de cada casal, combinando emoção, humor e leveza para criar momentos inesquecíveis e envolventes para todos os presentes.
                         </p>
-                        <p class="text-white-75 mb-4">
-                        Além de conduzir as cerimônias com maestria, José Carlos Jr. se dedica a entender a história de cada casal, garantindo que todos os detalhes sejam significativos e especiais. Sua abordagem acolhedora e empática faz com que os noivos se sintam à vontade, enquanto ele transforma cada celebração em uma experiência memorável e cheia de emoção, marcando o início de uma nova etapa com muito amor e alegria.
-                    </p>
+                        <p class="text-white-75 mb-4" data-aos="fade-up" data-aos-delay="200">
+                            Além de conduzir as cerimônias com maestria, José Carlos Jr. se dedica a entender a história de cada casal, garantindo que todos os detalhes sejam significativos e especiais. Sua abordagem acolhedora e empática faz com que os noivos se sintam à vontade, enquanto ele transforma cada celebração em uma experiência memorável e cheia de emoção, marcando o início de uma nova etapa com muito amor e alegria.
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
         
-        
         <!-- Services-->
-        <section class="page-section" id="services">
+        <!-- <section class="page-section" id="services">
             <div class="container px-4 px-lg-5">
                 <h2 class="text-center mt-0">Nosso Trabalho</h2>
                 <hr class="divider" />
@@ -122,33 +124,72 @@
                     </div>
                 </div>
             </div>
+        </section> -->
+
+        <section class="page-section" id="services">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0" data-aos="fade-down">Nosso Trabalho</h2>
+                <hr class="divider" data-aos="zoom-in" />
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-phone fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Contato</h3>
+                            <p class="text-muted mb-0">Nesse momento, ouvirei atentamente suas ideias e expectativas para garantir uma cerimônia personalizada e planejada com carinho.</p>
+                        </div>
+                    </div> 
+                    <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="100">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-calendar fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Entrevista</h3>
+                            <p class="text-muted mb-0">Vamos nos reunir para que eu possa conhecer melhor a história, os sonhos e os desejos dos noivos. Esses encontros são leves e sempre muito divertidos!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="200">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Contrato</h3>
+                            <p class="text-muted mb-0">Depois de alinharmos todos os detalhes, envio uma proposta completa com todas as informações necessárias para garantir sua segurança jurídica.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="300">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Dia de celebração</h3>
+                            <p class="text-muted mb-0">Deixe tudo comigo! Cuidarei de todos os detalhes para que sua celebração de casamento seja inesquecível.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+        
+
         <!-- Portfolio-->
         <div id="portfolio">
             <div class="container-fluid p-0">
                 <div class="row g-0">
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-delay="100">
                         <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpeg" >
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpeg" alt="..." />
                             <div class="portfolio-box-caption"> 
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-delay="100">
                         <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpeg" >
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpeg" alt="..." />
                             <div class="portfolio-box-caption">
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-sm-6"data-aos="fade-up" data-aos-delay="100">
                         <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpeg" >
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpeg" alt="..." />
                             <div class="portfolio-box-caption">
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-delay="200">
                         <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpeg" >
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpeg" alt="..." />
                             <div class="portfolio-box-caption">
@@ -156,35 +197,35 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpeg">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpeg" data-aos="fade-up" data-aos-delay="200">
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpeg" alt="..." />
                             <div class="portfolio-box-caption">
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpeg" >
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpeg" data-aos="fade-up" data-aos-delay="200"" >
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpeg" alt="..." />
                             <div class="portfolio-box-caption p-3">
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/7.jpeg" >
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/7.jpeg" data-aos="fade-up" data-aos-delay="300" >
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/7.jpeg" alt="..." />
                             <div class="portfolio-box-caption p-3">
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/8.jpeg" >
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/8.jpeg" data-aos="fade-up" data-aos-delay="300" >
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/8.jpeg" alt="..." />
                             <div class="portfolio-box-caption p-3">
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/9.jpeg" >
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/9.jpeg" data-aos="fade-up" data-aos-delay="300" >
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/9.jpeg" alt="..." />
                             <div class="portfolio-box-caption p-3">
                             </div>
@@ -197,7 +238,7 @@
         
         <!-- Call to action-->
         <section class="page-section bg-dark text-white">
-            <div class="container px-4 px-lg-5 text-center">
+            <div class="container px-4 px-lg-5 text-center" data-aos="fade-up" data-aos-delay="100">
                 <div class="jota-logo">
                     <img src="assets/img/portfolio/thumbnails/jota2.png" alt="Logo" />
                 </div>
@@ -205,20 +246,13 @@
             </div>
         </section>
 
-        <!-- Vídeos-->
-        <!-- <section class="page-section bg-primary" id="videos">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 align-items-center">
-                    <h2 class="text-white mt-0">Vídeos</h2>
-                </div>
-            </div>
-        </section> -->
+ 
 
         <!-- Vídeos -->
 <section class="page-section bg-primary" id="videos">
     <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 align-items-center">
-            <h2 class="text-white mt-0 mb-5 text-center">Vídeos</h2>
+            <h1 class="text-white mt-0 mb-5 text-center">Vídeos</h1>
         </div>
         <div class="row gx-4 gx-lg-5 justify-content-center">
             <!-- Primeiro vídeo -->
@@ -252,36 +286,40 @@
         </div>
     </div>
 </section>
-
-
-        <!-- Depoimentos-->
-
-        <section class="testimonial text-center"  id="depoimentos">
-            <div class="container">
     
-                <div class="heading white-heading">
+        <section class="testimonial text-center" id="depoimentos" data-aos="fade-up">
+            <div class="container">
+                <div class="heading white-heading" data-aos="fade-down">
                     Depoimentos
                 </div>
-                <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
-                 
+                <div 
+                    id="testimonial4" 
+                    class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" 
+                    data-ride="carousel" 
+                    data-pause="hover" 
+                    data-interval="5000" 
+                    data-duration="2000" 
+                    data-aos="fade-up"
+                >
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
-                            <div class="testimonial4_slide">
+                            <div class="testimonial4_slide" data-aos="zoom-in" data-aos-delay="100">
                                 <img src="assets/img/depoimentos/1.png" class="img-circle img-responsive" />
-                                <p>Nossa cerimônia foi simplesmente perfeita! José Carlos Jr. conseguiu capturar a nossa essência e transformá-la em palavras emocionantes. Cada detalhe foi cuidadosamente planejado, e sentimos que tudo estava alinhado com o que sonhamos. Obrigado por tornar nosso grande dia tão inesquecível!. </p>
+                                <p>Nossa cerimônia foi simplesmente perfeita! José Carlos Jr. conseguiu capturar a nossa essência e transformá-la em palavras emocionantes. Cada detalhe foi cuidadosamente planejado, e sentimos que tudo estava alinhado com o que sonhamos. Obrigado por tornar nosso grande dia tão inesquecível!</p>
                                 <h4>Juliana e Wesley</h4>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="testimonial4_slide">
-                                <img src="assets/img/depoimentos/2.png" class="img-circle img-responsive" /><p>Não poderíamos estar mais felizes com a celebração! José Carlos Jr. trouxe uma energia incrível para o nosso casamento, equilibrando emoção e descontração na medida certa. Todos os convidados comentaram como a cerimônia foi especial e cheia de significado. Gratidão eterna por esse momento mágico!</p>
+                            <div class="testimonial4_slide" data-aos="zoom-in" data-aos-delay="200">
+                                <img src="assets/img/depoimentos/2.png" class="img-circle img-responsive" />
+                                <p>Não poderíamos estar mais felizes com a celebração! José Carlos Jr. trouxe uma energia incrível para o nosso casamento, equilibrando emoção e descontração na medida certa. Todos os convidados comentaram como a cerimônia foi especial e cheia de significado. Gratidão eterna por esse momento mágico!</p>
                                 <h4>Isadora e Caio</h4>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="testimonial4_slide">
+                            <div class="testimonial4_slide" data-aos="zoom-in" data-aos-delay="300">
                                 <img src="assets/img/depoimentos/3.png" class="img-circle img-responsive" />
-                                <p>José Carlos Jr., você foi sensacional! Desde a primeira reunião, sentimos o quanto você se dedicava a entender nossa história. No dia da cerimônia, foi emocionante ouvir nossa trajetória contada de forma tão cativante. Obrigado por transformar nosso sonho em realidade com tanto carinho e profissionalismo! </p>
+                                <p>José Carlos Jr., você foi sensacional! Desde a primeira reunião, sentimos o quanto você se dedicava a entender nossa história. No dia da cerimônia, foi emocionante ouvir nossa trajetória contada de forma tão cativante. Obrigado por transformar nosso sonho em realidade com tanto carinho e profissionalismo!</p>
                                 <h4>Diliane e Ronaldo</h4>
                             </div>
                         </div>
@@ -295,8 +333,7 @@
                 </div>
             </div>
         </section>
-    
-
+        
         <section class="page-section" id="contact">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -304,19 +341,23 @@
                         <h2 class="mt-0">Entre em contato conosco e solicite um orçamento!</h2>
                     </div>
                 </div>
-               
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-4 text-center mb-5 mb-lg-0">
-                        <i class="bi-phone fs-1 mb-3 text-muted"></i>
-                        <div class="fs-2">(21) 96441-7313</div>
-                        <div class="fs-2">(21) 99669-0449</div>
+                    <div class="col-lg-8 text-center">
+                        <div class="mb-4">
+                            <i class="bi-phone fs-1 mb-3 text-muted"></i>
+                            <div class="fs-2">(21) 96441-7313</div>
+                            <div class="fs-2">(21) 99669-0449</div>
+                        </div>
+                        <div class="mb-4">
+                            <i class="bi-envelope fs-1 mb-3 text-muted"></i>
+                            <div class="fs-2">jotacelebrante@gmail.com</div>
+                        </div>
                     </div>
-                </div>
-        
+
                 <!-- Redes Sociais -->
                 <div class="row gx-4 gx-lg-5 justify-content-center mt-4">
                     <div class="col-lg-6 text-center">
-                        <a href="https://www.instagram.com/" target="_blank" class="text-success mx-2 social-icon" aria-label="Instagram">
+                        <a href="https://www.instagram.com/jota.celebrante/profilecard/?igsh=MXRzN3lldjZ4M3Nzag==" target="_blank" class="text-success mx-2 social-icon" aria-label="Instagram">
                             <i class="bi-instagram large-icon"></i>
                         </a>
                         <a href="https://www.facebook.com/" target="_blank" class="text-success mx-2 social-icon" aria-label="Facebook">

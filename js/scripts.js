@@ -56,6 +56,10 @@ window.addEventListener('DOMContentLoaded', event => {
         elements: '#portfolio a.portfolio-box'
     });
 
+    AOS.init({
+        duration: 1000, // Duração de 1 segundo
+        once: true      // Executa a animação apenas uma vez
+    });
 
 });
 

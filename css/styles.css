@@ -11068,16 +11068,41 @@ header.masthead h1, header.masthead .h1 {
   z-index: 99;
 }
 
-.testimonial {
+/* .testimonial {
   min-height: 375px;
   position: relative;
-  /* background: url(https://i.ibb.co/PTJDkgb/testimonials.jpg); */
   background-color:  #212529;
   padding-top: 50px;
   padding-bottom: 50px;
   background-position: center;
       background-size: cover;
+} */
+
+.testimonial {
+  min-height: 375px;
+  position: relative;
+  background: url(/assets/img/depoimentos/jr.jpeg) no-repeat center 38%;
+  background-size: cover; /* Mantém a proporção da imagem */
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
+
+.testimonial::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adiciona uma sobreposição escura */
+  z-index: 1;
+}
+
+.testimonial .container {
+  position: relative;
+  z-index: 2; /* Garante que o conteúdo fique acima da sobreposição */
+}
+
 #testimonial4 .carousel-inner:hover{
 cursor: -moz-grab;
 cursor: -webkit-grab;
@@ -11243,11 +11268,11 @@ padding-bottom:50px;
 .whatsapp-button {
       
   position: fixed;
-  bottom: 40px;
-  right: 40px;
+  bottom: 20px;
+  right: 20px;
   z-index: 9999;
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background-color: #25D366;
   display: flex;
