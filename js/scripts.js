@@ -57,7 +57,7 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
     AOS.init({
-        duration: 1000, // Duração de 1 segundo
+        duration: 1000, // Animação de 1 segundo
         once: true      // Executa a animação apenas uma vez
     });
 
